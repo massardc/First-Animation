@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  First Animation
 //
-//  Created by School on 11/01/2018.
+//  Created by ClementM on 11/01/2018.
 //  Copyright © 2018 ClementM. All rights reserved.
 //
 

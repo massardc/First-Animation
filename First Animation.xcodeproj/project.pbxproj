@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BF8C21D32008212C0034DE6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C21D22008212C0034DE6E /* AppDelegate.swift */; };
-		BF8C21D52008212C0034DE6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C21D42008212C0034DE6E /* ViewController.swift */; };
+		BF8C21D52008212C0034DE6E /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C21D42008212C0034DE6E /* AnimationVC.swift */; };
 		BF8C21D82008212C0034DE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8C21D62008212C0034DE6E /* Main.storyboard */; };
 		BF8C21DA2008212C0034DE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C21D92008212C0034DE6E /* Assets.xcassets */; };
 		BF8C21DD2008212C0034DE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8C21DB2008212C0034DE6E /* LaunchScreen.storyboard */; };
+		BF8C21E5200821A30034DE6E /* AnimationScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF8C21E4200821A20034DE6E /* AnimationScene.sks */; };
+		BF8C21E7200821D80034DE6E /* AnimationScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C21E6200821D80034DE6E /* AnimationScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF8C21CF2008212C0034DE6E /* First Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8C21D22008212C0034DE6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF8C21D42008212C0034DE6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF8C21D42008212C0034DE6E /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
 		BF8C21D72008212C0034DE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF8C21D92008212C0034DE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8C21DC2008212C0034DE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF8C21DE2008212C0034DE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8C21E4200821A20034DE6E /* AnimationScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimationScene.sks; sourceTree = "<group>"; };
+		BF8C21E6200821D80034DE6E /* AnimationScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				BF8C21D22008212C0034DE6E /* AppDelegate.swift */,
-				BF8C21D42008212C0034DE6E /* ViewController.swift */,
+				BF8C21D42008212C0034DE6E /* AnimationVC.swift */,
+				BF8C21E4200821A20034DE6E /* AnimationScene.sks */,
+				BF8C21E6200821D80034DE6E /* AnimationScene.swift */,
 				BF8C21D62008212C0034DE6E /* Main.storyboard */,
 				BF8C21D92008212C0034DE6E /* Assets.xcassets */,
 				BF8C21DB2008212C0034DE6E /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 				BF8C21DD2008212C0034DE6E /* LaunchScreen.storyboard in Resources */,
 				BF8C21DA2008212C0034DE6E /* Assets.xcassets in Resources */,
 				BF8C21D82008212C0034DE6E /* Main.storyboard in Resources */,
+				BF8C21E5200821A30034DE6E /* AnimationScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8C21D52008212C0034DE6E /* ViewController.swift in Sources */,
+				BF8C21D52008212C0034DE6E /* AnimationVC.swift in Sources */,
 				BF8C21D32008212C0034DE6E /* AppDelegate.swift in Sources */,
+				BF8C21E7200821D80034DE6E /* AnimationScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
